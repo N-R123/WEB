@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- int i=0,j=0;
+    int n=5; -->
+    <style>
+        .grid{
+            display: grid;
+            height: 530px;
+            width: 530px;
+            background-color: grey;
+            border: 5px grey solid;  
+            border-radius: 5px;          
+            grid-template-rows: repeat(5, 4fr);
+            grid-template-columns: repeat(5, 4fr);
+            margin: auto;
+            grid-gap: 0.25rem;
+            position: relative;
+        }
+        /* .clr1{
+            background-color: red;
+            border: 2px solid;
+            border-radius: 5px;
+           padding: 30px;
+        }
+        .clr2{
+            background-color: green;
+            border: 2px solid;
+            border-radius: 5px;
+           padding: 30px;
+        }
+        .clr3{
+            background-color: yellow;
+            border: 2px solid;
+            border-radius: 5px;
+           padding: 30px;
+        }
+        .clr4{
+            background-color: salmon;
+            border: 2px solid;
+            border-radius: 5px;
+           padding: 30px;
+        }
+        .clr5{
+            background-color: blue;
+            border: 2px solid;
+            border-radius: 5px;
+           padding: 30px;
+        } */
+        .box{
+            border: 2px solid;
+            border-radius: 5px;
+           padding: 30px;
+           top: 0px;
+        }
+        </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box"  >Box-1</div>
+        <div class="box" style="background-color: red;">Box-2</div>
+        <div class="box" style="background-color: red;">Box-3</div>
+        <div class="box" style="background-color: red;">Box-4</div>
+        <div class="box" style="background-color: green;">Box-5</div>
+        <div class="box" style="background-color: green;">Box-6</div>
+        <div class="box" style="background-color: green;">Box-7</div>
+        <div class="box" style="background-color: green;">Box-8</div>
+        <div class="box" style="background-color: yellow;">Box-9</div>
+        <div class="box" style="background-color: yellow;">Box-10</div>
+        <div class="box" style="background-color: yellow;">Box-11</div>
+        <div class="box" style="background-color: yellow;">Box-12</div>
+        <div class="box" style="background-color: salmon;">Box-13</div>
+        <div class="box" style="background-color: salmon;">Box-14</div>
+        <div class="box" style="background-color: salmon;">Box-15</div>
+        <div class="box" style="background-color: salmon;">Box-16</div>
+        <div class="box" style="background-color: blue;">Box-17</div>
+        <div class="box" style="background-color: blue;">Box-18</div>
+        <div class="box" style="background-color: blue;">Box-19</div>
+        <div class="box" style="background-color: blue;">Box-20</div>
+        <div class="box" style="background-color: white;">Box-21</div>
+        <div class="box" style="background-color: white;">Box-22</div>
+        <div class="box" style="background-color: white;">Box-23</div>
+        <div class="box" style="background-color: white;">Box-24</div>
+        <div class="box">Box-25</div>
+    </div>
+    <script>
+        ondblclick(document.getElementsByClassName(box))
+        {
+        let b;
+        b = document.getElementsByClassName(box);
+        document.getElementsByClassName(box) = document.getElementsByName(Box-25);
+        document.getElementsByName(Box-25) = b;
+        }
+    </script>
+</body>
+</html>
